@@ -39,7 +39,6 @@ namespace omarkhd.DataStructures
 					parent.RightChild = node;
 				else
 					parent.LeftChild = node;
-				Console.Out.WriteLine("inserting below {0}", parent.Item);
 			}
 
 			this.Length += 1;
